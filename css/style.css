@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-header {
+    padding: 5px 5px 5px 15px;
+    background-color: white;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+.content {
+    padding: 60px 0;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+}
