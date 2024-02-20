@@ -30,6 +30,7 @@ body {
     background-color: white;
     padding: 25px;
     border-radius: 10px;
+    font-family:"Inter", sans-serif;
 }
 
 .bottone {
@@ -48,5 +49,18 @@ body {
     border-radius: 5px;
     border: 1px solid rgb(198, 191, 191);
 }
+
+.lista {
+    line-height: 1.7em;
+    list-style: none;
+}
+
+.new-task {
+    margin-top: 10px;
+    border-top: 1px solid rgb(245, 244, 244);
+    padding-top: 20px;
+}
+
+
 
 
