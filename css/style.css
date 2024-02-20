@@ -28,6 +28,25 @@ body {
 
 .card {
     background-color: white;
-    padding: 24px;
+    padding: 25px;
     border-radius: 10px;
 }
+
+.bottone {
+    padding: 4px;
+}
+
+.bottone.blu {
+    background-color: #2c8bf1;
+    border-radius: 5px;
+    border: 1px solid #2c8bf1 ;
+
+}
+
+.bottone.bianco {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 191, 191);
+}
+
+
