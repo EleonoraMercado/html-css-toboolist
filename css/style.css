@@ -8,9 +8,18 @@ body {
     background-color: #f1f1f1;
 }
 
+/* Attributi della struttura del contenitore */
 .container { 
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* attributi estetici contenitore */
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    font-family:"Inter", sans-serif;
 }
 
 .page-header {
@@ -26,13 +35,7 @@ body {
     padding: 60px 0;
 }
 
-.card {
-    background-color: white;
-    padding: 25px;
-    border-radius: 10px;
-    font-family:"Inter", sans-serif;
-}
-
+/* selettore per struttura bottone */
 .bottone {
     padding: 4px;
 }
@@ -51,7 +54,7 @@ body {
 }
 
 .lista {
-    line-height: 1.7em;
+    line-height: 2em;
     list-style: none;
 }
 
@@ -60,6 +63,65 @@ body {
     border-top: 1px solid rgb(245, 244, 244);
     padding-top: 20px;
 }
+
+.sezione-nt {
+    margin-bottom: 15px;
+}
+
+.sezione-t {
+    margin-bottom: 15px;
+}
+
+.container .check-mark { 
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+   color: greenyellow;
+   border-radius: 50%;
+}
+.container .multiplier {
+    color: red;
+    font-size: 20px;
+}
+
+.etichetta {
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+.blu {
+    background-color: #2c8bf1;
+}
+
+.viola {
+    background-color: rgb(125, 44, 125);
+}
+
+.arancione {
+    background-color: orange;
+}
+
+.fucsia {
+    background-color: fuchsia;
+}
+
+.verde {
+    background-color: green;
+}
+
+.verdem {
+    background-color: rgb(149, 203, 69);
+}
+
+
+
+
+
+
+
+
 
 
 
