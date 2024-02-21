@@ -11,36 +11,49 @@
 </head>
 <body>
 
+    <!-- header con logo -->
     <header class="page-header">
         <img class="header-logo" src="./img/Toboolist-logo.jpg" alt="Logo">
     </header>
 
     <main class="content">
-
+    
+        <!-- contenitore centrale -->
         <div class="container card">
+
+            <!-- parte superiore del contenuto con i bottoni e divisione -->
             <button class="bottone blu">Add Task</button>
             <button class="bottone bianco">Add Section</button>
 
-            <h3 class="new-task">&#9662 New Task</h3>
-            <ul class="lista task">
-                <li class="lista task">Quarterly Newsletter <span class="ettichetta-blu">Editorial</span></li>
-            </ul>
+            <!-- sezione new task -->
+            <section class="sezione-nt">    
+                <h3 class="new-task">&#9662 New Task</h3>
+                <ul class="lista task">
+                    <li class="lista task"><span class="check-mark">&#10003</span> Quarterly Newsletter <span class="etichetta blu">Editorial</span></li>
+                </ul>
+            </section>
 
-            <h3>&#9662 Today</h3>
-            <ul class=" lista today">
-                <li class="lista today">Recruiting blog post <span class="etticcheta-blu">Editorial</span></li>
-                <li class="lista today">Mobile app luaunch <span class="etticcheta-viola">Q1 Goals</span></li>
-                <li class="lista today">Interview John H. <span class="etticcheta-verde">Recruiting</span></li>
-                <li class="lista today">Summit update to mobile strorefronts <span class="etticcheta-arancione">Mobile</span></li>
-            </ul>
+            <!-- sezione today -->
+            <section class="sezione-t">
+                <h3>&#9662 Today</h3>
+                <ul class=" lista today">
+                    <li class="lista today"><span class="check-mark"> &#10003</span> Recruiting blog post <span class="etichetta blu">Editorial</span></li>
+                    <li class="lista today"><span class="check-mark">&#10003</span> Mobile app luaunch <span class="etichetta viola">Q1 Goals</span></li>
+                    <li class="lista today"><span class="multiplier">&#10754</span> Interview John H. <span class="etichetta verde">Recruiting</span></li>
+                    <li class="lista today"><span class="check-mark">&#10003</span> Summit update to mobile strorefronts <span class="etichetta arancione">Mobile</span></li>
+                </ul>
+            </section>
 
-            <h3>&#9662 Upcoming</h3>
-            <ul class="lista upcoming">
-                <li class="lista upcoming">Schedule Meeting with Alex</li>
-                <li class="lista upcoming">Homepage refresh <span class="etticcheta-fucsia">Website</span></li>
-                <li class="lista upcoming">Onboard new Sales team members <span class="etticcheta-verdem">Sales</span></li>
-                <li class="lista upcoming">Review editorial calendar <span class="etticcheta-blu">Editorial</span></li>
-            </ul>
+            <!-- sezione upcoming -->
+            <section class="sezione-u">
+                <h3>&#9662 Upcoming</h3>
+                <ul class="lista upcoming">
+                    <li class="lista upcoming"><span class="multiplier">&#10754</span> Schedule Meeting with Alex</li>
+                    <li class="lista upcoming"><span class="check-mark">&#10003</span> Homepage refresh <span class="etichetta fucsia">Website</span></li>
+                    <li class="lista upcoming"><span class="check-mark">&#10003</span> Onboard new Sales team members <span class="etichetta verdem">Sales</span></li>
+                    <li class="lista upcoming"><span class="check-mark">&#10003</span> Review editorial calendar <span class="etichetta blu">Editorial</span></li>
+                </ul>
+            </section>
 
         </div>
     </main>
